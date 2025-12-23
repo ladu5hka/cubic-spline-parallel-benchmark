@@ -10,10 +10,10 @@ module purge
 module load mpi/openmpi/4.1.6/gcc/11
 PYTHON_BIN=/opt/software/python/3.11.8/bin/python3
 
-N=200000000
-NE=200000000
+N=50000000
+NE=50000000
 THREADS=(2 4 8 16 48)
-PROCS=(2 4 16 28)
+PROCS=(2 4 16 28 112)
 
 echo "===== Job Info ====="
 echo "Date              = $(date)"
