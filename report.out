@@ -1,71 +1,77 @@
 ===== Job Info =====
-Date              = Tue Dec  2 14:13:37 MSK 2025
-Hostname          = n06p016
+Date              = Tue Dec 23 13:33:42 MSK 2025
+Hostname          = n06p018
 Working Directory = /home/ipmmstudy2/tm5u32/cubic_spline
-Nodes Allocated   = 2
-Tasks Allocated   = 
+Nodes Allocated   = 4
+Tasks Allocated   =
 CPUs per Task     = 1
 ===================
 Compiling...
 
 === RUN pthreads ===
 Threads = 2
-pthreads checksum=24.8267433097
-pthreads time = 0.975314 sec
+pthreads checksum=198.3155316245
+pthreads time = 0.220936 sec
 Threads = 4
-pthreads checksum=24.8267433097
-pthreads time = 0.452965 sec
+pthreads checksum=198.3155316245
+pthreads time = 0.113903 sec
 Threads = 8
-pthreads checksum=24.8267433097
-pthreads time = 0.295068 sec
+pthreads checksum=198.3155316245
+pthreads time = 0.066058 sec
 Threads = 16
-pthreads checksum=24.8267433097
-pthreads time = 0.223056 sec
+pthreads checksum=198.3155316245
+pthreads time = 0.057760 sec
 Threads = 48
-pthreads checksum=24.8267433097
-pthreads time = 0.174603 sec
+pthreads checksum=198.3155316245
+pthreads time = 0.054477 sec
 
 === RUN OpenMP ===
 Threads = 2
-openmp checksum=24.8267433097
-openmp time=1.287588 seconds
+openmp checksum=198.3155316245
+openmp time=0.284143 seconds
 Threads = 4
-openmp checksum=24.8267433095
-openmp time=0.625316 seconds
+openmp checksum=198.3155316244
+openmp time=0.148716 seconds
 Threads = 8
-openmp checksum=24.8267433096
-openmp time=0.326936 seconds
+openmp checksum=198.3155316245
+openmp time=0.083038 seconds
 Threads = 16
-openmp checksum=24.8267433095
-openmp time=0.244443 seconds
+openmp checksum=198.3155316245
+openmp time=0.060661 seconds
 Threads = 48
-openmp checksum=24.8267433096
-openmp time=0.170953 seconds
+openmp checksum=198.3155316245
+openmp time=0.057015 seconds
 
 === RUN MPI C ===
 Procs = 2
-mpi C checksum=24.8267433097
-mpi C time=1.303220 seconds
+mpi C checksum=198.3155316245
+mpi C time=0.334541 seconds
 Procs = 4
-mpi C checksum=24.8267433095
-mpi C time=0.567058 seconds
+mpi C checksum=198.3155316244
+mpi C time=0.145018 seconds
 Procs = 16
-mpi C checksum=24.8267433096
-mpi C time=0.163441 seconds
+mpi C checksum=198.3155316245
+mpi C time=0.042636 seconds
 Procs = 28
-mpi C checksum=24.8267433095
-mpi C time=0.121407 seconds
+mpi C checksum=198.3155316245
+mpi C time=0.034247 seconds
+Procs = 112
+mpi C checksum=198.3155316245
+mpi C time=0.031227 seconds
 
 === RUN MPI Python ===
 Procs = 2
-mpi Python checksum=24.8267433095
-mpi Python time = 0.513749 sec
+mpi Python checksum=198.3155316245
+mpi Python time = 0.154962 sec
 Procs = 4
-mpi Python checksum=24.8267433095
-mpi Python time = 0.260612 sec
+mpi Python checksum=198.3155316245
+mpi Python time = 0.063054 sec
 Procs = 16
-mpi Python checksum=24.8267433095
-mpi Python time = 0.074721 sec
+mpi Python checksum=198.3155316245
+mpi Python time = 0.015739 sec
 Procs = 28
-mpi Python checksum=24.8267433095
-mpi Python time = 0.064095 sec
+mpi Python checksum=198.3155316245
+mpi Python time = 0.013183 sec
+Procs = 112
+mpi Python checksum=198.3155316245
+mpi Python time = 0.012610 sec
