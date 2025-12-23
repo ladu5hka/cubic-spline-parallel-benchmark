@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --job-name=spline_all
-#SBATCH --output=report_4.out
-#SBATCH --nodes=2
+#SBATCH --output=report.out
+#SBATCH --nodes=4
 #SBATCH --cpus-per-task=1
 #SBATCH --time=01:00:00
 #SBATCH --partition=cascade
